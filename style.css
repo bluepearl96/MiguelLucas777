@@ -1,0 +1,81 @@
+body{
+  font-family: arial, helvetica;
+}
+*{
+  margin: 30;
+  padding: 30;
+  border-radius: 50%;
+}
+body{
+  background: url("img/525.png") no-repeat;
+  background-size: cover;
+}
+
+.social {
+	position: fixed;
+  right: 0;
+	top: 10px;
+	z-index: 2000;
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#000000;
+		background: #000000;
+		padding: 15px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+	}
+
+  .social ul li .fa-twitter {background: #00BFFF;}
+  .social ul li .fa-instagram {background:#FF0000;} /*  los colores de cada red social, aprovechando su class */
+
+  .social ul li .fa-instagram {
+    background: #FF0000;
+
+   }
+
+	.social ul li a:hover {
+    padding: 60px 60px;
+		background: #000000;
+	}
+
+
+*menu{
+  list-style: none;
+  padding: 0;
+  background: #F5F5DC;
+  width: 90%
+  max-width: 1000px;
+  margin: auto;
+}
+
+ .menu li a {
+   text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+ }
+
+ .menu li{
+   display: inline-block;
+   text-aligin: center;
+ }
+
+ .menu li a:hover{
+   background: #FF0000;
+   box-shadow: 0 0 10px #FF0000, 0 0 40px
+   #FF0000, 0 0 80px #FF0000;
+ }
+
+ .div.rojo{
+   background: #F00000;
+   padding: 0px;
+   margin: 0px;
+ }
